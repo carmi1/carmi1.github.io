@@ -32,14 +32,19 @@ header > .title > h1 {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding-top: 0;
+	color: sienna;
 	}
 header > .title > h3 {
 	font-size: 3em;
 	align: center;
 	margin-top: 0;
 	margin-bottom: 0;
+	color: sienna;
 	}
-img {
+.mainimage {
+	width: 100%;
+	}
+.mainimage > img {
 	width: 100vw;
 	height: 100vh;
 	order: 3;
@@ -58,12 +63,43 @@ header > .heute {
 	padding-bottom: 0;
 	justify-content: center;
 	}
+.blocks {
+	display: flex;
+	flex-direction: row;
+	}
+.blocks > .block {
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+	text-align: center;
+	border-color: sienna;
+	border-width: 5px;
+	border-style: solid;
+	margin: 3px;
+	}
+.blocks > .block > a {
+	color: sienna;
+	}
+.blocks > .block > a > img {
+	height: auto;
+	padding: 1em;
+	padding-bottom: 0;
+	}
+.blocks > .block > a > h1 {
+	padding: 0;
+	padding-top: 0;
+	color: sienna;
+	text-decoration-color: sienna;
+	font-family: 'Elsie Swash Caps', cursive;
+	font-size: 3em;
+	}
 footer {
 	order: 5;
 	text-align: center;
 	}
 </style>
 </HEAD>
+<BODY>
 <header>
 <DIV class="heute"> 
 21.-26. August <BR>
@@ -75,7 +111,15 @@ footer {
 <h3> Die Kunst der Suppe </h3>
 </DIV>
 </header>
+<div class="mainimage">
 <IMG SRC="title1.png" alt="Impressionistische Suppe"/>
+</div>
 Some stuff goes here
+<DIV class="blocks">
+	<DIV class="block"><a href="Mannschaft.html"><IMG src="Mannschaft.small.png" alt="Unsere Mannschaft"/><h1>Unsere Mannschaft</h1></a></DIV>
+	<DIV class="block"><a href="index.html"><IMG src="Hausrezepte.small.png" alt="Hausrezepte"/><h1>Hausrezepte</h1></a></DIV>
+	<DIV class="block"><a href="Mythologie.html"><IMG src="Mythologie.small.png" alt="Geschichte & Mythologie"/><h1>Geschichte & Mythologie</h1></a></DIV>
+</DIV>
 <footer><small>© Super Suppe 2023<small></footer>
+</BODY>
 </HTML>
