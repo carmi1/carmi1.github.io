@@ -63,9 +63,29 @@ header > .heute {
 	padding-bottom: 0;
 	justify-content: center;
 	}
+header > .frisch {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	color: sienna;
+	align: right;
+	text-align: left;
+	padding: 1em;
+	order: 3;
+	width: 15%;
+	margin-bottom: 0.5em;
+	padding-top: 3em;
+	padding-bottom: 0;
+	justify-content: center;
+	}
+header > .frisch > b {
+	color: green;
+	}
 .blocks {
 	display: flex;
 	flex-direction: row;
+	margin: 0;
+	border: 0;
+	padding: 0;
 	}
 .blocks > .block {
 	display: flex;
@@ -75,7 +95,7 @@ header > .heute {
 	border-color: sienna;
 	border-width: 5px;
 	border-style: solid;
-	margin: 3px;
+	margin: 0.5%;
 	}
 .blocks > .block > a {
 	color: sienna;
@@ -101,20 +121,22 @@ footer {
 </HEAD>
 <BODY>
 <header>
-<DIV class="heute"> 
-21.-31. August <BR>
-<BR> Wir sind im Urlaub <BR>
-<BR><B>Zu heiß für Suppe</B>
-</DIV>
-<DIV class="title">
-<h1> Super Suppe </h1>
-<h3> Die Kunst der Suppe </h3>
-</DIV>
+	<DIV class="heute"> 
+		21.-31. August <BR>
+		<BR> Wir sind im Urlaub <BR>
+		<BR><B>Zu heiß für Suppe</B>
+	</DIV>
+	<DIV class="title">
+		<h1> Super Suppe </h1>
+		<h3> Die Kunst der Suppe </h3>
+	</DIV>
+	<div class="frisch">
+		Alle unsere Suppe sind <b>vegan</b>, frisch und hausgemacht.
+	</div>
 </header>
 <div class="mainimage">
 <IMG SRC="Title1.png" alt="Impressionistische Suppe"/>
 </div>
-Some stuff goes here
 <DIV class="blocks">
 	<DIV class="block"><a href="Mannschaft.html"><IMG src="Mannschaft.small.png" alt="Unsere Mannschaft"/><h1>Unsere Mannschaft</h1></a></DIV>
 	<DIV class="block"><a href="Rezepte.html"><IMG src="Hausrezepte.small.png" alt="Hausrezepte"/><h1>Hausrezepte</h1></a></DIV>
