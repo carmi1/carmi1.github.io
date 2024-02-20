@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Super Soup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<style>
+body {
+	display: flex;
+	flex-direction: row;
+	background-color: ivory;
+	font-family: poppins;
+	}
+
+.main_diagram {
+	width: 50%;
+	}	
+
+.main_diagram > img {
+	width: 95%;
+	object-fit: contain;
+	object-position: left;
+	padding: 2rem;
+	border: 2rem;
+	}
+.non_diagram {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	border: 2rem;
+	}
+.recipe {
+	order: 2;
+	display: flex;
+	flex-direction: row;
+	}
+header {
+	order: 1;
+	text-align: center;
+	}
+article {
+		order: 1;
+		list-style-position: inside;
+		padding: 1rem;
+		margin: 1rem;
+		width: 65%;
+		}
+aside {
+	order: 2;
+	background-color: wheat;
+	width: 35%;
+	padding: 1rem;
+	margin: 2 rem;
+	}
+.art_image {
+	object-position: center;
+	}
+.art_image > img {
+	width: 100%;
+	object-fit: contain;
+	object-position: center;
+	}
+footer {
+	order: 3;
+	text-align: center;
+	}
+</style>
+</head>
+
+<body>
+<div class="main_diagram">
+	<img src="Images/Rezepte/en.Diagram.Minestrone.svg" alt="a diagram of how to make the soup" /> <!-- Point to correct soup diagram here -->
+</div>
+<div class="non_diagram">
+<header>
+<h3> The Home Cooking Series </h3>
+<h1> Home Recipe - Genoese Minestrone </h1> <!--soup title goes here -->
+</header>
+<div class="recipe">
+<article>
+	<h4>Ingredients</h4>
+	<ul>
+		<li> 3 Tbsp <b>Olive oil</b> </li>
+		<li> 1 large <b>onion</b> </li>
+		<li> 1 large <b>potato</b> </li>
+		<li> 3 <b>carrots</b> </li>
+		<li> 300 g <b>pumpkin</b> </li>
+		<li> 3-5 stalks of <b>celery</b> </li>
+		<li> 2 Tbsp fresh <b>thyme</b> </li>
+		<li> 3-4 tsp minced <b>garlic</b> </li>
+		<li> <b>Salt</b> and <b>Pepper</b> </li>
+		<li> 800g diced <b>tomatoes</b> </li>
+		<li> 1 <b>bay leaf</b> </li>
+		<li> 2 Litres <b>vegetable stock</b> </li>
+		<li> 1 tsp <b>yeast extract</b> </li>
+		<li> 1 can <b>white beans</b> </li>
+		<li> Splash dry <b>white wine</b> </li>
+		<li> 250g short <b>pasta</b> - cooked </li>
+		<li> <b>Pesto</b> </li>
+	</ul>
+	<h4> Preparation </h4>
+	<ol>
+		<li> Put the <b>oliven oil</b>, <b>onion</b>, <b>potato</b>, <b>carotts</b>, <b>pumpkin</b>, <b>celery</b>, <b>thyme</b>, <b>garlic</b>, <b>salt</b> and <b>Pepper</b> in pot sauté for 7-8 minutes. </li>
+		<li> Add the <b>tomatoes</b>, <b>bayleaf</b> and <b>vegetable stock</b> and cook at a simmer for 35 mMinutes. </li>
+		<li> Discard the bay leaf. </li>
+		<li> Add the <b>yeast extract</b>, <b>white beans</b>, <b>white wine</b> and <b>pasta</b> and mix well.</li>
+		<li> Serve in a bowl with a spoonful of <b></b>pesto</b>. </li>
+		</ol>
+	<h4> That's all.</h4>
+</article>
+<aside>
+		<p>This was our first professional soup. It has a deep and complex flavor that is very special.</p>
+		<p>It's worth getting the fresh herbs for this.</p> <!-- Aside, short soup description -->
+		<div class="art_image">
+			<img src="Images/Rezepte/art.minestrone.png" alt="A painting of minestrone soup in the style of Caravaggio" /> <!-- Point to correct soup art and add alt text here -->
+		</div>
+	</aside>
+	</div>
+<footer><small>© Super Suppe 2024<small></footer>
+</div>
+</body>
+</html>
