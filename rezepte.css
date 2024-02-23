@@ -1,0 +1,66 @@
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: ivory;
+	font-family: poppins;
+	align: center;
+	}
+
+.main_diagram {
+	
+	margin: 5rem;
+	}	
+
+.main_diagram > img {
+	width: 95%;
+	object-fit: contain;
+	object-position: center;
+	padding: 2rem;
+	border: 2rem;
+	}
+.non_diagram {
+	
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	border: 2rem;
+	}
+.recipe {
+	order: 2;
+	display: flex;
+	flex-direction: row;
+	}
+@media (max-width: 780px) {.recipe {
+	order: 2;
+	display: flex;
+	flex-direction: column;
+	}
+	}
+header {
+	order: 1;
+	text-align: center;
+	}
+article {
+		order: 1;
+		list-style-position: inside;
+		padding: 1rem;
+		margin: 1rem;
+		}
+aside {
+	order: 2;
+	background-color: wheat;
+	padding: 1rem;
+	margin: 2 rem;
+	}
+.art_image {
+	object-position: center;
+	}
+.art_image > img {
+	width: 100%;
+	object-fit: contain;
+	object-position: center;
+	}
+footer {
+	order: 3;
+	text-align: center;
+	}
