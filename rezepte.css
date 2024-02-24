@@ -57,7 +57,7 @@ aside {
 	object-position: center;
 	}
 .art_image > img {
-	width: 100%;
+	border: 2rem;
 	object-fit: contain;
 	object-position: center;
 	}
