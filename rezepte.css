@@ -30,7 +30,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	}
-@media (max-width: 780px) {.recipe {
+@media (max-width: 1080px) {.recipe {
 	order: 2;
 	display: flex;
 	flex-direction: column;
